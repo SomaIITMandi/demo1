@@ -10,7 +10,9 @@
 
 // to add file <add file to staging area>
 >> git add <file_name>
+
 >> git add .      // shortcut to add all files
+
 
 // now staging area to local commit
 >> git commit -m 'your message'
@@ -39,6 +41,7 @@ git config --global user.name "Your Name"
 
 ### To create git branch
 >> git branch <branch_name>      // then checkout the branch_name
+
 >> git checkout -b <branch_name>   // branch created and checkout at same time
 
 >> git branch -a     // to show all the branches
@@ -46,6 +49,7 @@ git config --global user.name "Your Name"
 >> git checkout <branch_name>     // to change from master branch to new branch
 
 >> git branch -d <branch_name>    // to delete the branch, if it's already merged with master
+
 >> git branch -D <branch_name>    // to delete the branch, if it's not merged with master
 
 >> git merge <branch_name>    // do it from master
